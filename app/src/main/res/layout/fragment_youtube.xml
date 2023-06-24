@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/youtubeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+    android:paddingTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_medium"
+    android:text="How To Place Trade On Binance App."
+    android:textColor="@color/white"
+    android:textSize="14sp"
+        android:paddingBottom="5dp"
+    />
+<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:videoId="mv_0EkpsV68"
+    app:autoPlay="false"
+/>
+    <TextView
+        android:fontFamily="@font/nunito_medium"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Under Standing Charts"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:paddingBottom="5dp"
+        />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="ToSbBwzzMj0"
+        app:autoPlay="false"
+        />
+    <TextView
+        android:paddingBottom="5dp"
+        android:fontFamily="@font/nunito_medium"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What Is CrytoCurrency Trading?"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="q8bd-hRfQT4"
+        app:autoPlay="false"
+        />
+</LinearLayout>
